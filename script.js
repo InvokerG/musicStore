@@ -26,7 +26,7 @@ function showProducts(category) {
             </article>
         `;
     } else if (category === "used") {
-        products.innerHTML = `<h2>New Arrivals</h2>
+        products.innerHTML = `<h2>Used Guitars</h2>
 
             <article>
                 <img src="usedGuitars/used 1.1.jpg"
@@ -46,7 +46,7 @@ function showProducts(category) {
             </article>
         `;
     } else if (category === "deals") {
-        products.innerHTML = `<h2>New Arrivals</h2>
+    products.innerHTML = `<h2>Save on Deals!</h2>
 
             <article>
                 <img src="e_guitarDeals/deals 1.1.jpg"
@@ -65,7 +65,7 @@ function showProducts(category) {
                          width="200">
                 </div>
 
-                <p>Used guitar = $200</p>
+                <p>Now on Sale = Only $150</p>
             </article>
         `;
     }
