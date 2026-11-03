@@ -11,6 +11,7 @@ function showProducts(category) {
                      width="200"
                      onclick="showMorePhotos()"
                      style="cursor: pointer;">
+                     <p>Description: Ibanez 6 string electric guitar.</p>
 
                 <div id="morePhotos" hidden>
                     <img src="newGuitars/new 1.2.webp"
@@ -22,7 +23,7 @@ function showProducts(category) {
                          width="200">
                 </div>
 
-                <p>New guitar — $200</p>
+                <p>Price: $200</p>
             </article>
         `;
     } else if (category === "used") {
