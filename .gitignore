@@ -1,2 +1,12 @@
-# Windows files
-Thumbs.db
+# JavaScript
+node_modules/
+coverage/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Django
+.env
+db.sqlite3
