@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 30px 0;
+}
+nav {
+        display: flex;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    nav a {
+        background-color: white;
+        color: #19459c;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        background-color: gold;
+        color: black;
+    }
+header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+}
