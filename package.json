@@ -1,0 +1,24 @@
+{
+  "name": "musicstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InvokerG/musicStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/InvokerG/musicStore/issues"
+  },
+  "homepage": "https://github.com/InvokerG/musicStore#readme",
+  "devDependencies": {
+    "vitest": "^5.1.1"
+  }
+}
